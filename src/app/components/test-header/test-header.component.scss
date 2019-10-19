@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 42px;
+    background-color: rgba(0, 119, 167, 0.8);
+    padding: 0.2%;
+}
+
+.fas {
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+.header__logo_text {
+    display: inline;
+}

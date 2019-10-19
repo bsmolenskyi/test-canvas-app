@@ -1,0 +1,23 @@
+.diagramsPanel {
+    width:100%;
+    height: 90vh;
+    white-space:nowrap;
+  }
+  
+  .diagramDiv {
+    border: 3px solid gray;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .paletteDiv {
+    border: 2px solid gray;
+    display: inline-block;
+    vertical-align: top;
+    width: 18%;
+    height: 15%;
+    position: fixed;
+    z-index: abs($number: 1001);
+  }
